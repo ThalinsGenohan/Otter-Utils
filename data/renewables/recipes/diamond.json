@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "quark:charcoal_block"
+  },
+  "transitionalItem": {
+    "item": "quark:charcoal_block"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "quark:charcoal_block"
+        },
+        {
+          "item": "quark:charcoal_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:charcoal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "quark:charcoal_block"
+        },
+        {
+          "fluid": "minecraft:lava",
+          "amount": 125
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:charcoal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "quark:charcoal_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:charcoal_block"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:diamond",
+      "count": 1
+    }
+  ],
+  "loops": 8
+}

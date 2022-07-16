@@ -1,0 +1,15 @@
+{
+	"type":"crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:note_block"
+		},
+		{
+			"item": "quark:ender_watcher"
+		}
+	],
+	"result": {
+			"item": "minecraft:sculk_sensor",
+			"count": 1
+	}
+}

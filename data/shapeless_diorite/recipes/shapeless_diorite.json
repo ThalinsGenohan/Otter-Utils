@@ -1,0 +1,15 @@
+{
+	"type":"crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:cobblestone"
+		},
+		{
+			"item": "minecraft:quartz"
+		}
+	],
+	"result": {
+			"item": "minecraft:diorite",
+			"count": 1
+	}
+}

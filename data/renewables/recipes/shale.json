@@ -1,0 +1,36 @@
+{
+	"type":"crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"item": "minecraft:cyan_dye"
+		}
+	],
+	"result": {
+			"item": "quark:shale",
+			"count": 8
+	}
+}

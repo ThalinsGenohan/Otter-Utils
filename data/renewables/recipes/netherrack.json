@@ -1,0 +1,13 @@
+{
+	"type": "create:haunting",
+	"ingredients": [
+		{
+			"tag": "forge:stone"
+		}
+	],
+	"results": [
+		{
+			"item": "minecraft:netherrack"
+		}
+	]
+}

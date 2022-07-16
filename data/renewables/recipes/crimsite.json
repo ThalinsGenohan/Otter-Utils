@@ -1,0 +1,36 @@
+{
+	"type":"crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"item": "minecraft:red_dye"
+		}
+	],
+	"result": {
+			"item": "create:crimsite",
+			"count": 8
+	}
+}

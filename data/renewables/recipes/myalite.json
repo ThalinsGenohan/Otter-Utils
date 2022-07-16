@@ -1,0 +1,36 @@
+{
+	"type":"crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:end_stone"
+		},
+		{
+			"item": "minecraft:end_stone"
+		},
+		{
+			"item": "minecraft:end_stone"
+		},
+		{
+			"item": "minecraft:end_stone"
+		},
+		{
+			"item": "minecraft:end_stone"
+		},
+		{
+			"item": "minecraft:end_stone"
+		},
+		{
+			"item": "minecraft:end_stone"
+		},
+		{
+			"item": "minecraft:end_stone"
+		},
+		{
+			"item": "minecraft:purple_dye"
+		}
+	],
+	"result": {
+			"item": "quark:myalite",
+			"count": 8
+	}
+}
