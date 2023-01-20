@@ -1,9 +1,0 @@
-{
-  "type": "botania:orechid",
-  "input": "minecraft:stone",
-  "output": {
-    "type": "block",
-    "block": "create:zinc_ore"
-  },
-  "weight": 29371
-}

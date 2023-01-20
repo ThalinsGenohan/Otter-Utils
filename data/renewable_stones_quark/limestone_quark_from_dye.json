@@ -1,0 +1,36 @@
+{
+	"type":"crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"tag": "forge:stone"
+		},
+		{
+			"item": "minecraft:lime_dye"
+		}
+	],
+	"result": {
+			"item": "quark:limestone",
+			"count": 8
+	}
+}

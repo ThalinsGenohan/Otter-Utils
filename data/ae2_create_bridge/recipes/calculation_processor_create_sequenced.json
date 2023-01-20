@@ -1,0 +1,53 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "ae2:silicon" },
+  "transitionalItem": { "item": "ae2:printed_silicon" },
+  "loops": 1,
+  "results": [ { "item": "ae2:calculation_processor" } ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "ae2:printed_silicon" },
+        { "item": "ae2:silicon_press" }
+      ],
+      "results": [ { "item": "ae2:printed_silicon" } ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "ae2:printed_silicon" } ],
+      "results": [ { "item": "ae2:printed_silicon" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "ae2:printed_silicon" },
+        { "item": "minecraft:redstone" }
+      ],
+      "results": [ { "item": "ae2:printed_silicon" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "ae2:printed_silicon" },
+        { "item": "ae2:certus_quartz_crystal" }
+      ],
+      "results": [ { "item": "ae2:printed_silicon" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "ae2:printed_silicon" },
+        { "item": "ae2:calculation_processor_press" }
+      ],
+      "results": [ { "item": "ae2:printed_silicon" } ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "ae2:printed_silicon" } ],
+      "results": [ { "item": "ae2:printed_silicon" } ]
+    }
+  ]
+}

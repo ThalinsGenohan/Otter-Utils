@@ -1,0 +1,9 @@
+{
+	"type": "create:mixing",
+	"ingredients": [
+		{ "item": "ae2:charged_certus_quartz_crystal" },
+		{ "item": "ae2:certus_quartz_dust" },
+		{ "fluid": "minecraft:water", "amount": 250 }
+	],
+	"results": [ { "item": "ae2:certus_quartz_crystal", "amount": 2 } ]
+}
