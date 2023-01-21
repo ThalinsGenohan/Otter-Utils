@@ -1,112 +1,54 @@
 {
   "type": "create:sequenced_assembly",
-  "ingredient": {
-    "item": "minecraft:obsidian"
-  },
-  "transitionalItem": {
-    "item": "minecraft:obsidian"
-  },
+  "ingredient": { "item": "minecraft:obsidian" },
+  "transitionalItem": { "item": "minecraft:obsidian" },
+  "loops": 16,
+  "results": [ { "item": "minecraft:netherite_ingot" } ],
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
-        {
-          "item": "minecraft:obsidian"
-        },
-        {
-          "item": "minecraft:iron_ingot"
-        }
+        { "item": "minecraft:obsidian" },
+        { "item": "minecraft:iron_ingot" }
       ],
-      "results": [
-        {
-          "item": "minecraft:obsidian"
-        }
-      ]
+      "results": [ { "item": "minecraft:obsidian" } ]
     },
     {
       "type": "create:deploying",
       "ingredients": [
-        {
-          "item": "minecraft:obsidian"
-        },
-        {
-          "item": "minecraft:gold_ingot"
-        }
+        { "item": "minecraft:obsidian" },
+        { "item": "minecraft:gold_ingot" }
       ],
-      "results": [
-        {
-          "item": "minecraft:obsidian"
-        }
-      ]
+      "results": [ { "item": "minecraft:obsidian" } ]
     },
     {
       "type": "create:deploying",
       "ingredients": [
-        {
-          "item": "minecraft:obsidian"
-        },
-        {
-          "item": "minecraft:copper_ingot"
-        }
+        { "item": "minecraft:obsidian" },
+        { "item": "minecraft:copper_ingot" }
       ],
-      "results": [
-        {
-          "item": "minecraft:obsidian"
-        }
-      ]
+      "results": [ { "item": "minecraft:obsidian" } ]
     },
     {
       "type": "create:deploying",
       "ingredients": [
-        {
-          "item": "minecraft:obsidian"
-        },
-        {
-          "item": "create:zinc_ingot"
-        }
+        { "item": "minecraft:obsidian" },
+        { "item": "create:zinc_ingot" }
       ],
-      "results": [
-        {
-          "item": "minecraft:obsidian"
-        }
-      ]
+      "results": [ { "item": "minecraft:obsidian" } ]
     },
     {
       "type": "create:filling",
       "ingredients": [
-        {
-          "item": "minecraft:obsidian"
-        },
-        {
-          "fluid": "minecraft:lava",
-          "amount": 125
-        }
+        { "item": "minecraft:obsidian" },
+        { "fluid": "minecraft:lava", "amount": 125 }
       ],
-      "results": [
-        {
-          "item": "minecraft:obsidian"
-        }
-      ]
+      "results": [ { "item": "minecraft:obsidian" } ]
     },
     {
       "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "minecraft:obsidian"
-        }
-      ],
-      "results": [
-        {
-          "item": "minecraft:obsidian"
-        }
-      ]
+      "ingredients": [ { "item": "minecraft:obsidian" } ],
+      "results": [ { "item": "minecraft:obsidian" } ]
     }
-  ],
-  "results": [
-    {
-      "item": "minecraft:netherite_ingot",
-      "count": 1
-    }
-  ],
-  "loops": 16
+  ]
 }

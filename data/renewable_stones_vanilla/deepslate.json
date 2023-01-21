@@ -1,15 +1,8 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [
-		{
-			"tag": "forge:cobblestone"
-		},
-		{
-			"item": "minecraft:blackstone"
-		}
+		{ "tag": "forge:cobblestone" },
+		{ "item": "minecraft:blackstone" }
 	],
-	"result": {
-			"item": "minecraft:deepslate",
-			"count": 2
-		}
+	"result": { "item": "minecraft:deepslate", "count": 2 }
 }

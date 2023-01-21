@@ -5,12 +5,7 @@
 		"XX"
 	],
 	"key": {
-		"X": {
-			"item": "minecraft:gravel"
-		}
+		"X": { "item": "minecraft:gravel" }
 	},
-	"result": {
-			"item": "minecraft:tuff",
-			"count": 1
-		}
+	"result": { "item": "minecraft:tuff" }
 }

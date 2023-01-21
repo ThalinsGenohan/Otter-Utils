@@ -1,64 +1,30 @@
 {
   "type": "create:sequenced_assembly",
-  "ingredient": {
-    "item": "quark:charcoal_block"
-  },
-  "transitionalItem": {
-    "item": "quark:charcoal_block"
-  },
+  "ingredient": { "item": "quark:charcoal_block" },
+  "transitionalItem": { "item": "quark:charcoal_block" },
+  "loops": 8,
+  "results": [ { "item": "minecraft:diamond" } ],
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
-        {
-          "item": "quark:charcoal_block"
-        },
-        {
-          "item": "quark:charcoal_block"
-        }
+        { "item": "quark:charcoal_block" },
+        { "item": "quark:charcoal_block" }
       ],
-      "results": [
-        {
-          "item": "quark:charcoal_block"
-        }
-      ]
+      "results": [ { "item": "quark:charcoal_block" } ]
     },
     {
       "type": "create:filling",
       "ingredients": [
-        {
-          "item": "quark:charcoal_block"
-        },
-        {
-          "fluid": "minecraft:lava",
-          "amount": 125
-        }
+        { "item": "quark:charcoal_block" },
+        { "fluid": "minecraft:lava", "amount": 125 }
       ],
-      "results": [
-        {
-          "item": "quark:charcoal_block"
-        }
-      ]
+      "results": [ { "item": "quark:charcoal_block" } ]
     },
     {
       "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "quark:charcoal_block"
-        }
-      ],
-      "results": [
-        {
-          "item": "quark:charcoal_block"
-        }
-      ]
+      "ingredients": [ { "item": "quark:charcoal_block" } ],
+      "results": [ { "item": "quark:charcoal_block" } ]
     }
-  ],
-  "results": [
-    {
-      "item": "minecraft:diamond",
-      "count": 1
-    }
-  ],
-  "loops": 8
+  ]
 }

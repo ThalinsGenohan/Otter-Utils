@@ -1,36 +1,15 @@
 {
 	"type":"crafting_shapeless",
 	"ingredients": [
-		{
-			"item": "quark:myalite"
-		},
-		{
-			"item": "quark:myalite"
-		},
-		{
-			"item": "quark:myalite"
-		},
-		{
-			"item": "quark:myalite"
-		},
-		{
-			"item": "quark:myalite"
-		},
-		{
-			"item": "quark:myalite"
-		},
-		{
-			"item": "quark:myalite"
-		},
-		{
-			"item": "quark:myalite"
-		},
-		{
-			"item": "minecraft:black_dye"
-		}
+		{ "item": "quark:myalite" },
+		{ "item": "quark:myalite" },
+		{ "item": "quark:myalite" },
+		{ "item": "quark:myalite" },
+		{ "item": "quark:myalite" },
+		{ "item": "quark:myalite" },
+		{ "item": "quark:myalite" },
+		{ "item": "quark:myalite" },
+		{ "item": "minecraft:black_dye" }
 	],
-	"result": {
-			"item": "quark:dusky_myalite",
-			"count": 8
-	}
+	"result": { "item": "quark:dusky_myalite", "count": 8 }
 }

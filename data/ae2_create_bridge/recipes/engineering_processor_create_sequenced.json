@@ -31,7 +31,7 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "ae2:printed_silicon" },
-        { "item": "minecraft:diamond_ingot" }
+        { "item": "minecraft:diamond" }
       ],
       "results": [ { "item": "ae2:printed_silicon" } ]
     },

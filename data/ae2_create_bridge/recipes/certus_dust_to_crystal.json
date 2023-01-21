@@ -5,5 +5,5 @@
 		{ "item": "ae2:certus_quartz_dust" },
 		{ "fluid": "minecraft:water", "amount": 250 }
 	],
-	"results": [ { "item": "ae2:certus_quartz_crystal", "amount": 2 } ]
+	"results": [ { "item": "ae2:certus_quartz_crystal", "count": 2 } ]
 }
