@@ -1,53 +1,53 @@
 {
   "type": "create:sequenced_assembly",
-  "ingredient": { "item": "ae2:silicon" },
-  "transitionalItem": { "item": "ae2:printed_silicon" },
+  "ingredient": { "item": "minecraft:gold" },
+  "transitionalItem": { "item": "ae2:printed_logic_processor" },
   "loops": 1,
   "results": [ { "item": "ae2:logic_processor" } ],
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
-        { "item": "ae2:printed_silicon" },
-        { "item": "ae2:silicon_press" }
-      ],
-      "results": [ { "item": "ae2:printed_silicon" } ],
-      "keepHeldItem": true
-    },
-    {
-      "type": "create:pressing",
-      "ingredients": [ { "item": "ae2:printed_silicon" } ],
-      "results": [ { "item": "ae2:printed_silicon" } ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        { "item": "ae2:printed_silicon" },
-        { "item": "minecraft:redstone" }
-      ],
-      "results": [ { "item": "ae2:printed_silicon" } ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        { "item": "ae2:printed_silicon" },
-        { "item": "minecraft:gold_ingot" }
-      ],
-      "results": [ { "item": "ae2:printed_silicon" } ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        { "item": "ae2:printed_silicon" },
+        { "item": "ae2:printed_logic_processor" },
         { "item": "ae2:logic_processor_press" }
       ],
-      "results": [ { "item": "ae2:printed_silicon" } ],
+      "results": [ { "item": "ae2:printed_logic_processor" } ],
       "keepHeldItem": true
     },
     {
       "type": "create:pressing",
-      "ingredients": [ { "item": "ae2:printed_silicon" } ],
-      "results": [ { "item": "ae2:printed_silicon" } ]
+      "ingredients": [ { "item": "ae2:printed_logic_processor" } ],
+      "results": [ { "item": "ae2:printed_logic_processor" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "ae2:printed_logic_processor" },
+        { "item": "minecraft:redstone" }
+      ],
+      "results": [ { "item": "ae2:printed_logic_processor" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "ae2:printed_logic_processor" },
+        { "item": "ae2:silicon" }
+      ],
+      "results": [ { "item": "ae2:printed_logic_processor" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "ae2:printed_logic_processor" },
+        { "item": "ae2:silicon_press" }
+      ],
+      "results": [ { "item": "ae2:printed_logic_processor" } ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "ae2:printed_logic_processor" } ],
+      "results": [ { "item": "ae2:printed_logic_processor" } ]
     }
   ]
 }
