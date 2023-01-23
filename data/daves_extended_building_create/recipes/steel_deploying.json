@@ -1,0 +1,8 @@
+{
+	"type": "create:deploying",
+	"ingredients": [
+		{ "item": "minecraft:iron_block" },
+		{ "tag": "minecraft:coals" }
+	],
+	"results": [ { "item": "davebuildingmod:steel_block" } ]
+}
