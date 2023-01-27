@@ -1,0 +1,5 @@
+{
+	"type": "create:pressing",
+	"ingredients": [ { "item": "minecraft:stone_slab" } ],
+	"results": [ { "item": "quark:blank_rune" } ]
+}
