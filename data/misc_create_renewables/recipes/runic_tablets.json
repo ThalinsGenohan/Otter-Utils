@@ -4,5 +4,5 @@
 		{ "item": "quark:blank_rune" },
 		{ "fluid": "create_enchantment_industry:experience", "amount": 10 }
 	],
-	"results": "simplyswords:runic_tablet"
+	"results": [ { "item": "simplyswords:runic_tablet" } ]
 }
